@@ -1,0 +1,28 @@
+This is a  program  which was designed as part of my "30-Day Python Challenge." 
+
+1. Functionalities of functions:
+   - show_intro(): This Function to represent introduction of this assignment / Project. Starting with a little welcome message.
+   - PrintEvenWithControl():
+      - A for loop iterates over a range of numbers from 1 to 50 range(1, 51). This loop will go through each number in this range.
+      - Condition to Skip 20:
+        - An if statement checks if the current number is 20. If the number is 20 then it skips it by displaying a user-friendly msg.
+      - Condition to Break at 40:
+        - Another if statement checks if the current number is 40. If the number is 40 then break the loop with a user-friendly msg
+      - Condition to Print Even Numbers:
+        - If above two conditions weren't satisfied then the loop checks this condition if the number is even then it prints it.
+    - main():
+        This is were the program execution starts by calling show_intro() and PrintEvenWithControl() functions
+
+2. Main Execution Block:
+   - The if __name__ == "__main__": block ensures that the code within it runs only if this script is executed directly 
+     (not when imported as a module in another script).
+   
+What I've learnt:
+- Looping: We use looping statements when we want to do any task / instruction repetatively. The looping statements available in python were
+  while loop, for loop(and with range()), nested loops. These statements are also called as repeation statements.
+- Loop control statements: Loop control statements are used to take control over the loop and flow execution of loops, they can modify the
+  flow of loop. we have 3 loop control statements i.e break, continue and pass.
+  - break: Breaks the loop based on a condition.
+  - continue: Skips the current iteration and proceeds to next iteration.
+  - pass: This can be used as a placeholder for future code, When the pass statement is executed, nothing happens, 
+    but we avoid getting an error when empty code is not allowed.
